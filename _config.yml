@@ -6,16 +6,19 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 
+# add this line to add pagination
+paginate: 8
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : A lazy blogger!    @lordchen
 tagline: web javascript life
 author :
-  name : Lordchen
+  name : Lord Chen
   email : 95355234@qq.com
   github : dearlordchen
-  twitter : username
+  twitter : 磊
   feedburner : lord blog
 
 # The production_url is only used when full-domain names are needed
