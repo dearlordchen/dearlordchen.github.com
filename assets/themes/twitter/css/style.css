@@ -1,12 +1,21 @@
 /* Override some defaults */
-html, body {
-  background-color: #eee;
+html, body{
+  /*background-color: #eee;*/
+  font:14px/1.5em Georgia, Arial, "Times New Roman", Times,\5b8b\4f53, sans-serif;
 }
 .navbar {
   margin-bottom: 0;
 }
-.container > footer {
-  margin-top: 20px;
+.navbar .container{
+    width:985px;
+}
+.footer {
+  width: 100%;
+  margin: 20px auto 0;
+  padding: 20px;
+  text-align:center;
+  background-color:#f1f1f1;
+  border-top:1px solid #e7e7e7;
 }
 .container > footer p {
   text-align: center; /* center align it with the container */
@@ -17,18 +26,22 @@ html, body {
   background-color: #fff;
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
-  -webkit-border-radius: 0 0 6px 6px;
-     -moz-border-radius: 0 0 6px 6px;
-          border-radius: 0 0 6px 6px;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  /*-webkit-border-radius: 0 0 6px 6px;*/
+     /*-moz-border-radius: 0 0 6px 6px;*/
+          /*border-radius: 0 0 6px 6px;*/
+  /*-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);*/
+     /*-moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);*/
+          /*box-shadow: 0 1px 2px rgba(0,0,0,.15);*/
+}
+.content p{
+    font:14px/1.8em Georgia, "Times New Roman", Times, serif;
+    word-wrap: break-word;
 }
 
 /* Page header tweaks */
 .page-header {
-  background-color: #f5f5f5;
-  padding: 20px 20px 10px;
+  /*background-color: #f5f5f5;*/
+  padding: 60px 20px 10px;
   margin: -20px -20px 20px;
 }
 
@@ -68,4 +81,23 @@ html, body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-	
+
+/* add by laser 2012-10-07*/
+.span12, .container{width:985px;}
+.container .span12{width:985px;}
+.index_posts{ list-style:none;margin:0;padding:0;}
+.index_posts li{margin-bottom:15px;padding-bottom:10px;border-bottom:1px solid #e7e7e7;}
+.posts .post-sub{color:#999;}
+.span12 h2{padding-bottom:5px;}
+.friends-links{overflow:hidden;*zoom:1;margin:0;padding:0;}
+.friends-links li{list-style:none;float:left;margin-right:10px;}
+.feed a{display:inline-block;*display:inline;*zoom:1;margin-right:10px;}
+.rec-book a{margin-right:10px;}
+.posts h3{font-size:16px;display: inline-block;*display: inline;*zoom:1;}
+.posts .abstract{margin-top:10px;}
+.posts .abstract a, .posts .abstract a:hover{color:#333;text-decoration: none;}
+#toTop { display:none; text-decoration:none; position:fixed; bottom:100px; right:10px; overflow:hidden; width:51px; height:51px; border:none; text-indent:100%; background:url(../img/ui.totop.png) no-repeat left top;}
+#toTopHover { background:url(../img/ui.totop.png) no-repeat left -51px; width:51px; height:51px; display:block; overflow:hidden; float:left; opacity: 0; -moz-opacity: 0;filter:alpha(opacity=0);
+}
+#toTop:active, #toTop:focus { outline:none; }
+
