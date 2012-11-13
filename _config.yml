@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : A lazy blogger! @lordchen
-tagline: web javascript life 前端
+title : A lazy blogger!    @lordchen
+tagline: web javascript life
 author :
   name : Lordchen
   email : 95355234@qq.com
