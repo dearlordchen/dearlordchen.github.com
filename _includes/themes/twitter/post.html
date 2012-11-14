@@ -1,10 +1,12 @@
 <div class="page-header">
-  <h1>{{ page.title }} <small>Supporting tagline</small></h1>
+  <h1>{{ page.title }} <small>{{ page.tags }}</small></h1>
 </div>
 
 <div class="row">
   <div class="span8">
     {{ content }}
+      <br>
+      注：本文版权归<a href="http://dearlordchen.github.com"> {{ site.title }} </a>所有，转载请注明出处。
     <hr>
     <div class="pagination">
       <ul>
